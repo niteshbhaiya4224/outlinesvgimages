@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+    <!-- Background -->
+    <rect width="400" height="200" fill="#1a1a2e" />
+    <rect x="0" y="150" width="400" height="50" fill="#333" />
+    <line x1="0" y1="175" x2="400" y2="175" stroke="#FFF" stroke-width="3" stroke-dasharray="20,15" />
+
+    <!-- Stars -->
+    <g fill="#FFF">
+        <circle cx="50" cy="30" r="1" />
+        <circle cx="100" cy="50" r="1.5" />
+        <circle cx="180" cy="25" r="1" />
+        <circle cx="250" cy="45" r="1.5" />
+        <circle cx="320" cy="30" r="1" />
+        <circle cx="370" cy="55" r="1" />
+    </g>
+
+    <!-- Batmobile style -->
+    <g transform="translate(50, 70)">
+        <!-- Main body - angular and sleek -->
+        <path
+            d="M20,60 L30,50 L60,40 L100,30 L200,25 L260,30 L290,45 L300,55 L300,65 L280,70 L100,70 L30,65 Z"
+            fill="#111" stroke="#333" stroke-width="2" />
+
+        <!-- Cockpit bubble -->
+        <path d="M120,28 Q140,15 180,15 Q220,15 240,28 L240,40 L120,40 Z" fill="#222" stroke="#444" stroke-width="1" />
+        <path d="M130,30 Q155,20 180,20 Q205,20 230,30" fill="none" stroke="#00BFFF"
+            stroke-width="2" />
+
+        <!-- Bat fins -->
+        <path d="M50,45 L30,20 L40,40" fill="#111" stroke="#333" stroke-width="1" />
+        <path d="M70,40 L55,15 L65,38" fill="#111" stroke="#333" stroke-width="1" />
+
+        <!-- Jet exhaust -->
+        <ellipse cx="25" cy="57" rx="8" ry="5" fill="#FF4500" />
+        <ellipse cx="25" cy="57" rx="5" ry="3" fill="#FF6600" />
+        <ellipse cx="25" cy="57" rx="2" ry="1" fill="#FFFF00" />
+
+        <!-- Blue accent lights -->
+        <rect x="100" y="55" width="80" height="3" fill="#00BFFF" />
+        <circle cx="280" cy="50" r="4" fill="#00BFFF" />
+        <circle cx="290" cy="58" r="3" fill="#00BFFF" />
+
+        <!-- Wheels - hidden/covered -->
+        <ellipse cx="90" cy="68" rx="25" ry="12" fill="#0a0a0a" />
+        <ellipse cx="230" cy="68" rx="25" ry="12" fill="#0a0a0a" />
+
+        <!-- Bat symbol -->
+        <path d="M170,45 Q165,42 160,48 Q165,45 170,50 Q175,45 180,48 Q175,42 170,45" fill="#FFD700" />
+    </g>
+</svg>

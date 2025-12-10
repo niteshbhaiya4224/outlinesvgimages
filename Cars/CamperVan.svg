@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+<!-- Background - Camping -->
+<rect width="400" height="200" fill="#87CEEB" />
+<rect x="0" y="140" width="400" height="60" fill="#228B22" />
+
+<!-- Trees -->
+<polygon points="30,140 45,80 60,140" fill="#006400" />
+<polygon points="350,140 365,90 380,140" fill="#006400" />
+
+<!-- Road -->
+<rect x="0" y="155" width="400" height="45" fill="#555" />
+<line x1="0" y1="177" x2="400" y2="177" stroke="#FFF" stroke-width="3" stroke-dasharray="20,15" />
+
+<!-- RV/Camper Van -->
+<g transform="translate(50, 50)">
+<!-- Main body -->
+<path d="M20,105 L20,25 Q20,15 38,15 L240,15 Q260,15 265,32 L272,55 Q276,62 276,72 L276,105 Z"
+    fill="#F5F5DC" stroke="#DDD" stroke-width="2" />
+
+<!-- Cab overhang (sleeping area) -->
+<path d="M240,15 L240,5 Q240,0 255,0 L285,0 Q295,0 295,10 L295,35" fill="#F5F5DC" stroke="#DDD" stroke-width="2" />
+
+<!-- Stripe -->
+<rect x="20" y="55" width="256" height="1" fill="#4169E1" />
+   <rect x="20" y="70" width="256" height="5" fill="#FF6347" />
+   
+   <!-- Windows -->
+   <rect x=" 35" y=" 25" width=" 35" height=" 25" rx=" 3" fill=" #87CEEB" stroke=" #5BA3C0" stroke-width=" 2"/>
+   <rect x=" 80" y=" 25" width=" 35" height=" 25" rx=" 3" fill=" #87CEEB" stroke=" #5BA3C0" stroke-width=" 2"/>
+   <rect x=" 125" y=" 25" width=" 35" height=" 25" rx=" 3" fill=" #87CEEB" stroke=" #5BA3C0" stroke-width=" 2"/>
+   
+   <!-- Cab window -->
+   <path d="M250,38 L265,32 Q275,28 285,30 L290,32 Q296,35 296,42 L296,55 L248,55 Z" fill="#87CEEB" stroke="#5BA3C0" stroke-width="2" />
+   
+   <!-- Door -->
+   <rect x=" 175" y=" 78" width=" 35" height=" 30" fill=" #E8E8D8" stroke=" #CCC" stroke-width=" 2" rx=" 2"/>
+   <circle cx=" 202" cy=" 93" r=" 3" fill=" #DAA520"/>
+   
+   <!-- Entry step -->
+   <rect x=" 178" y=" 105" width=" 30" height=" 5" fill=" #666"/>
+   
+   <!-- Awning rail -->
+   <rect x=" 30" y=" 52" width=" 140" height=" 3" fill=" #888"/>
+   
+   <!-- Roof vents -->
+   <rect x=" 60" y=" 12" width=" 20" height=" 5" fill=" #888" rx=" 1"/>
+   <rect x=" 120" y=" 12" width=" 20" height=" 5" fill=" #888" rx=" 1"/>
+   
+   <!-- AC unit -->
+   <rect x=" 85" y=" 5" width=" 30" height=" 12" fill=" #CCC" rx=" 2"/>
+   
+   <!-- Wheels -->
+   <circle cx=" 70" cy=" 110" r=" 22" fill=" #222"/>
+   <circle cx=" 70" cy=" 110" r=" 14" fill=" #444"/>
+   <circle cx=" 70" cy=" 110" r=" 6" fill=" #666"/>
+   
+   <circle cx=" 235" cy=" 110" r=" 22" fill=" #222"/>
+   <circle cx=" 235" cy=" 110" r=" 14" fill=" #444"/>
+   <circle cx=" 235" cy=" 110" r=" 6" fill=" #666"/>
+   
+   <!-- Headlights -->
+   <rect x=" 272" y=" 62" width=" 6" height=" 12" rx=" 2" fill=" #FFFF99"/>
+   
+   <!-- Side mirror -->
+   <rect x=" 276" y=" 42" width=" 10" height=" 6" fill=" #333" rx=" 1"/>
+ </g>
+</svg>

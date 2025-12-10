@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+ <!-- Background - Airport -->
+ <rect width="400" height="200" fill="#87CEEB"/>
+ <rect x="0" y="140" width="400" height="60" fill="#555"/>
+ 
+ <!-- Runway markings -->
+ <rect x="50" y="155" width="60" height="8" fill="#FFF"/>
+ <rect x="150" y="155" width="60" height="8" fill="#FFF"/>
+ <rect x="250" y="155" width="60" height="8" fill="#FFF"/>
+ <rect x="350" y="155" width="40" height="8" fill="#FFF"/>
+ 
+ <!-- Airport Shuttle Bus -->
+ <g transform="translate(60, 50)">
+   <!-- Main body -->
+   <path d="M15,100 L15,25 Q15,15 33,15 L255,15 Q275,15 280,32 L288,55 Q292,62 292,72 L292,100 Z"
+         fill="#4169E1" stroke="#3050C0" stroke-width="2"/>
+   
+   <!-- White stripe -->
+   <rect x="15" y="55" width="277" height="12" fill="#FFF"/>
+   
+   <!-- AIRPORT text -->
+   <text x="145" y="48" font-family="Arial Black" font-size="14" fill="#FFF" text-anchor="middle">AIRPORT</text>
+   
+   <!-- Airplane logo -->
+   <g transform="translate(50, 35)">
+     <path d="M0,8 L15,0 L15,5 L25,5 L25,11 L15,11 L15,16 Z" fill="#FFF"/>
+   </g>
+   
+   <!-- Windows - many -->
+   <rect x="30" y="20" width="22" height="28" rx="2" fill="#87CEEB" stroke="#5BA3C0" stroke-width="1"/>
+   <rect x="58" y="20" width="22" height="28" rx="2" fill="#87CEEB" stroke="#5BA3C0" stroke-width="1"/>
+   <rect x="86" y="20" width="22" height="28" rx="2" fill="#87CEEB" stroke="#5BA3C0" stroke-width="1"/>
+   <rect x="114" y="20" width="22" height="28" rx="2" fill="#87CEEB" stroke="#5BA3C0" stroke-width="1"/>
+   <rect x="142" y="20" width="22" height="28" rx="2" fill="#87CEEB" stroke="#5BA3C0" stroke-width="1"/>
+   <rect x="170" y="20" width="22" height="28" rx="2" fill="#87CEEB" stroke="#5BA3C0" stroke-width="1"/>
+   <rect x="198" y="20" width="22" height="28" rx="2" fill="#87CEEB" stroke="#5BA3C0" stroke-width="1"/>
+   
+   <!-- Front windshield -->
+   <path d="M235,22 L255,18 Q268,15 278,22 L285,55 L232,55 Z"
+         fill="#87CEEB" stroke="#5BA3C0" stroke-width="2"/>
+   
+   <!-- Door -->
+   <rect x="226" y="70" width="30" height="32" fill="#3050C0" stroke="#2040A0" stroke-width="1" rx="2"/>
+   <rect x="230" y="75" width="22" height="20" fill="#87CEEB" rx="1"/>
+   
+   <!-- Luggage compartment doors -->
+   <rect x="30" y="72" width="50" height="22" fill="#3050C0" stroke="#2040A0" stroke-width="1" rx="2"/>
+   <rect x="90" y="72" width="50" height="22" fill="#3050C0" stroke="#2040A0" stroke-width="1" rx="2"/>
+   <rect x="150" y="72" width="50" height="22" fill="#3050C0" stroke="#2040A0" stroke-width="1" rx="2"/>
+   
+   <!-- Wheels -->
+   <circle cx="60" cy="105" r="22" fill="#222"/>
+   <circle cx="60" cy="105" r="14" fill="#444"/>
+   <circle cx="60" cy="105" r="6" fill="#666"/>
+   
+   <circle cx="245" cy="105" r="22" fill="#222"/>
+   <circle cx="245" cy="105" r="14" fill="#444"/>
+   <circle cx="245" cy="105" r="6" fill="#666"/>
+   
+   <!-- Headlights -->
+   <rect x="285" y="62" width="8" height="15" rx="2" fill="#FFFF99"/>
+   
+   <!-- Side mirror -->
+   <rect x="288" y="35" width="10" height="6" fill="#333" rx="1"/>
+ </g>
+ 
+ <!-- Airplane in sky -->
+ <g transform="translate(300, 30)">
+   <path d="M0,15 L40,0 L45,8 L55,8 L55,22 L45,22 L40,30 Z" fill="#FFF" stroke="#CCC" stroke-width="1"/>
+   <rect x="20" y="12" width="25" height="6" fill="#4169E1"/>
+ </g>
+</svg>
